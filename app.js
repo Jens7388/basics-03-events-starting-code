@@ -13,7 +13,7 @@ const app = Vue.createApp({
     submitForm(event){
       
     },
-    confirmName(){
+    confirmName(){ 
       this.confirmedName = this.name;
     },
     add(num){
